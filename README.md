@@ -21,6 +21,30 @@
 
 <code>https://github.com/devmahmud/Django-User_Authentication.git</code>
 
+- Go to the project directory
+
+```bash
+cd task-manager
+```
+
+- Create a virtual environment
+
+```bash
+python3 -m venv venv
+```
+
+- Activate the virtual environment
+
+```bash
+source venv/bin/activate
+```
+
+- Install the dependencies
+
+```bash
+pip3 install -r requirements.txt
+```
+
 <h2>Database Migration</h2>
 
 <p>To migrate the database, open a terminal in the project directory and run:</p>

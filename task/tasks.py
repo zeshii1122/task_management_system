@@ -1,8 +1,9 @@
-# tasks.py
-
-from celery import shared_task
+from celery_app import app
 from django.core.mail import send_mail
+from django.conf import settings
 
-@shared_task
+email_host_user = settings.EMAIL_HOST_USER
+
+@app.task
 def send_email_task(subject, message, recipient_list):
-    send_mail(subject, message, 'your@example.com', recipient_list)
+    send_mail(subject, message, email_host_user, recipient_list)

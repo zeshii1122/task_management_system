@@ -91,9 +91,5 @@ EMAIL_HOST_PASSWORD = 'your_email_password'
   Email: muhammadzeeshantariq1@gmail.com
 </blockquote>
 
-<div align="center">
-    <h3>======== Thank You !!! ========</h3>
-</div>
-
 </body>
 </html>
